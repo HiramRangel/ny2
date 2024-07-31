@@ -1,0 +1,787 @@
+{
+    "goalState": "ScreenOrder~Main~qs$APP_TYPE_SCRN$global$global",
+    "screen": {
+        "backButtonText": null,
+        "checkpointAfterSubmit": null,
+        "contextEntityId": "global",
+        "contextInstanceId": "global",
+        "controls": [
+            {
+                "caption": "Application Type:",
+                "controlState": {
+                    "enumValues": {},
+                    "value": "visible"
+                },
+                "controlStateRule": null,
+                "controlType": "LabelControl",
+                "customrenderurl": null,
+                "id": "global_global_g_0",
+                "properties": null,
+                "style": "Normal",
+                "width": 250
+            },
+            {
+                "caption": "_APP",
+                "controlState": {
+                    "enumValues": {},
+                    "value": "visible"
+                },
+                "controlStateRule": null,
+                "controlType": "ContainerControl",
+                "controls": [
+                    {
+                        "attributeId": "_APP_TYPE",
+                        "attributeType": {
+                            "enumValues": {},
+                            "value": "text"
+                        },
+                        "caption": "What is the application type code?",
+                        "controlOrientation": {
+                            "enumValues": {},
+                            "value": "vertical"
+                        },
+                        "controlState": {
+                            "enumValues": {},
+                            "value": "mandatory"
+                        },
+                        "controlStateRule": null,
+                        "controlType": "TextControl",
+                        "currentValue": {
+                            "changePoint": null,
+                            "textVal": "DTF17",
+                            "uncertainVal": null,
+                            "unknownVal": {}
+                        },
+                        "customrenderurl": null,
+                        "defaultValue": null,
+                        "errorList": null,
+                        "hintText": null,
+                        "id": "global_global_a__APP_TYPE",
+                        "inputControlType": {
+                            "enumValues": {},
+                            "value": "radio-button"
+                        },
+                        "inputRegex": null,
+                        "listOptions": {
+                            "listOption": [
+                                {
+                                    "changePoint": null,
+                                    "checkedImage": null,
+                                    "checkedImageUrl": null,
+                                    "displayText": "",
+                                    "textVal": null,
+                                    "uncertainVal": {},
+                                    "uncheckedImage": null,
+                                    "uncheckedImageUrl": null,
+                                    "unknownVal": null
+                                },
+                                {
+                                    "changePoint": null,
+                                    "checkedImage": null,
+                                    "checkedImageUrl": null,
+                                    "displayText": "DTF17",
+                                    "textVal": "DTF17",
+                                    "uncertainVal": null,
+                                    "uncheckedImage": null,
+                                    "uncheckedImageUrl": null,
+                                    "unknownVal": null
+                                }
+                            ]
+                        },
+                        "listOptionsFilter": null,
+                        "mask": null,
+                        "properties": null,
+                        "sliderLeftCaption": null,
+                        "sliderRightCaption": null,
+                        "warningList": null,
+                        "width": 250
+                    }
+                ],
+                "customrenderurl": null,
+                "displayStyle": {
+                    "enumValues": {},
+                    "value": "vertical"
+                },
+                "id": "global_global_g_1",
+                "properties": null,
+                "width": 250
+            },
+            {
+                "caption": "_PROFILE",
+                "controlState": {
+                    "enumValues": {},
+                    "value": "visible"
+                },
+                "controlStateRule": null,
+                "controlType": "ContainerControl",
+                "controls": [
+                    {
+                        "attributeId": "_CDI_EstablishedBusiness",
+                        "attributeType": {
+                            "enumValues": {},
+                            "value": "boolean"
+                        },
+                        "caption": "Business is Established",
+                        "checkedImage": null,
+                        "checkedImageUrl": null,
+                        "controlOrientation": null,
+                        "controlState": {
+                            "enumValues": {},
+                            "value": "optional"
+                        },
+                        "controlStateRule": null,
+                        "controlType": "BooleanControl",
+                        "currentValue": {
+                            "booleanVal": true,
+                            "changePoint": null,
+                            "uncertainVal": null,
+                            "unknownVal": {}
+                        },
+                        "customrenderurl": null,
+                        "defaultValue": {
+                            "booleanVal": false,
+                            "changePoint": null,
+                            "uncertainVal": null,
+                            "unknownVal": null
+                        },
+                        "errorList": null,
+                        "hideCaption": null,
+                        "hintText": null,
+                        "id": "global_global_a__CDI_EstablishedBusiness",
+                        "inputControlType": {
+                            "enumValues": {},
+                            "value": "checkbox"
+                        },
+                        "listOptions": null,
+                        "properties": null,
+                        "sliderLeftCaption": null,
+                        "sliderRightCaption": null,
+                        "uncheckedImage": null,
+                        "uncheckedImageUrl": null,
+                        "warningList": null,
+                        "width": 250
+                    },
+                    {
+                        "attributeId": "_CDI_EstablishedFEIN",
+                        "attributeType": {
+                            "enumValues": {},
+                            "value": "boolean"
+                        },
+                        "caption": "Business has an Established FEIN",
+                        "checkedImage": null,
+                        "checkedImageUrl": null,
+                        "controlOrientation": null,
+                        "controlState": {
+                            "enumValues": {},
+                            "value": "mandatory"
+                        },
+                        "controlStateRule": null,
+                        "controlType": "BooleanControl",
+                        "currentValue": {
+                            "booleanVal": null,
+                            "changePoint": null,
+                            "uncertainVal": null,
+                            "unknownVal": {}
+                        },
+                        "customrenderurl": null,
+                        "defaultValue": {
+                            "booleanVal": false,
+                            "changePoint": null,
+                            "uncertainVal": null,
+                            "unknownVal": null
+                        },
+                        "errorList": null,
+                        "hideCaption": null,
+                        "hintText": null,
+                        "id": "global_global_a__CDI_EstablishedFEIN",
+                        "inputControlType": {
+                            "enumValues": {},
+                            "value": "checkbox"
+                        },
+                        "listOptions": null,
+                        "properties": null,
+                        "sliderLeftCaption": null,
+                        "sliderRightCaption": null,
+                        "uncheckedImage": null,
+                        "uncheckedImageUrl": null,
+                        "warningList": null,
+                        "width": 250
+                    },
+                    {
+                        "attributeId": "_CDI_LicenseExists",
+                        "attributeType": {
+                            "enumValues": {},
+                            "value": "boolean"
+                        },
+                        "caption": "Does the application license exist?",
+                        "checkedImage": null,
+                        "checkedImageUrl": null,
+                        "controlOrientation": null,
+                        "controlState": {
+                            "enumValues": {},
+                            "value": "mandatory"
+                        },
+                        "controlStateRule": null,
+                        "controlType": "BooleanControl",
+                        "currentValue": {
+                            "booleanVal": null,
+                            "changePoint": null,
+                            "uncertainVal": null,
+                            "unknownVal": {}
+                        },
+                        "customrenderurl": null,
+                        "defaultValue": null,
+                        "errorList": null,
+                        "hideCaption": null,
+                        "hintText": null,
+                        "id": "global_global_a__CDI_LicenseExists",
+                        "inputControlType": {
+                            "enumValues": {},
+                            "value": "checkbox"
+                        },
+                        "listOptions": null,
+                        "properties": null,
+                        "sliderLeftCaption": null,
+                        "sliderRightCaption": null,
+                        "uncheckedImage": null,
+                        "uncheckedImageUrl": null,
+                        "warningList": null,
+                        "width": 250
+                    }
+                ],
+                "customrenderurl": null,
+                "displayStyle": {
+                    "enumValues": {},
+                    "value": "vertical"
+                },
+                "id": "global_global_g_3",
+                "properties": null,
+                "width": 250
+            }
+        ],
+        "errorList": null,
+        "id": "qs$APP_TYPE_SCRN$global$global",
+        "isAutomatic": false,
+        "previousGoalState": null,
+        "progress": {
+            "freeNavigation": false,
+            "progressStage": [
+                {
+                    "isCurrent": true,
+                    "progressScreen": [
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$APP_TYPE_SCRN$global$global",
+                            "id": "qs$APP_TYPE_SCRN$global$global",
+                            "isCurrent": true,
+                            "title": "Application Type",
+                            "visited": false,
+                            "willShow": true
+                        }
+                    ],
+                    "title": "Application Type"
+                },
+                {
+                    "isCurrent": false,
+                    "progressScreen": [
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_STATIC_SCRN$global$global",
+                            "id": "qs$CDI_BI_STATIC_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Introduction",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_ENT_TYPES_SCRN$global$global",
+                            "id": "qs$CDI_BI_ENT_TYPES_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Entity Type",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_SCRN_NOSP$global$global",
+                            "id": "qs$CDI_BI_SCRN_NOSP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Identification",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_SCRN_SP$global$global",
+                            "id": "qs$CDI_BI_SCRN_SP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Identification",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_SCRN_SPTFN$global$global",
+                            "id": "qs$CDI_BI_SCRN_SPTFN$global$global",
+                            "isCurrent": false,
+                            "title": "Business Identification",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_SCRN_SPFEIN$global$global",
+                            "id": "qs$CDI_BI_SCRN_SPFEIN$global$global",
+                            "isCurrent": false,
+                            "title": "Business Identification",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_SCRN_SPSSN$global$global",
+                            "id": "qs$CDI_BI_SCRN_SPSSN$global$global",
+                            "isCurrent": false,
+                            "title": "Business Identification",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_ADD_STATIC_SCRN$global$global",
+                            "id": "qs$CDI_BI_ADD_STATIC_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Business Addresses",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_BUS_ADD_SCRN$global$global",
+                            "id": "qs$CDI_BI_BUS_ADD_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Business Physical Address",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_ADD_LOC$global$global",
+                            "id": "qs$CDI_ADD_LOC$global$global",
+                            "isCurrent": false,
+                            "title": "Additional Physical Location(s)",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_BUS_MAIL_ADD_SCRN$global$global",
+                            "id": "qs$CDI_BI_BUS_MAIL_ADD_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Mailing Address(es)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_BUS_MAIL_SCRN$global$global",
+                            "id": "qs$CDI_BI_BUS_MAIL_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Mailing Address(es)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_CONT_SCRN$global$global",
+                            "id": "qs$CDI_BI_CONT_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Contact Information",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_NAICS_SCRN$global$global",
+                            "id": "qs$CDI_BI_NAICS_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Industry Classification",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_BI_STATIC2_SCRN$global$global",
+                            "id": "qs$CDI_BI_STATIC2_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Owner/Business Principal",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_GOVT_ADD_SCRN$global$global",
+                            "id": "qs$CDI_GOVT_ADD_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Representative Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_TRUST_ADD_SCRN$global$global",
+                            "id": "qs$CDI_TRUST_ADD_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Trustee Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_ESTATE_ADD_SCRN$global$global",
+                            "id": "qs$CDI_ESTATE_ADD_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Executor Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_SP_ADD_SCRN$global$global",
+                            "id": "qs$CDI_SP_ADD_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Sole Proprietor/Owner Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_LLC_MEM_SCRN$global$global",
+                            "id": "qs$CDI_LLC_MEM_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Member Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_LLC_MAN_SCRN$global$global",
+                            "id": "qs$CDI_LLC_MAN_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Member Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_CORP_ADD_SCRN$global$global",
+                            "id": "qs$CDI_CORP_ADD_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Officer/Shareholder Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_LLP_ADD_SCRN$global$global",
+                            "id": "qs$CDI_LLP_ADD_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Partner Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$CDI_PRTN_ADD_SCRN$global$global",
+                            "id": "qs$CDI_PRTN_ADD_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Partner Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$PROFILE_SUMMARY$global$global",
+                            "id": "qs$PROFILE_SUMMARY$global$global",
+                            "isCurrent": false,
+                            "title": "Profile Summary",
+                            "visited": false,
+                            "willShow": false
+                        }
+                    ],
+                    "title": "Business Profile"
+                },
+                {
+                    "isCurrent": false,
+                    "progressScreen": [
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF17_INTRO$global$global",
+                            "id": "qs$DTF17_INTRO$global$global",
+                            "isCurrent": false,
+                            "title": "Sales Tax Certificate of Authority",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_RSN_APPLY_SCRN$global$global",
+                            "id": "qs$DTF_RSN_APPLY_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Business Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BI_VENDR_SCRN$global$global",
+                            "id": "qs$DTF_BI_VENDR_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Former Owner Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BI_OWNER_SCRN$global$global",
+                            "id": "qs$DTF_BI_OWNER_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Financial Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_PHY_MAIL_ADD$global$global",
+                            "id": "qs$DTF_PHY_MAIL_ADD$global$global",
+                            "isCurrent": false,
+                            "title": "Primary Physical Location and Mailing Address",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_AI_DBA_SCRN$global$global",
+                            "id": "qs$DTF_AI_DBA_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Additional Location(s)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_CO_PRS_SCRN$global$global",
+                            "id": "qs$DTF_CO_PRS_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Officer/Shareholder Summary",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_CO_ADD_INFO_SCRN$global$global",
+                            "id": "qs$DTF_CO_ADD_INFO_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Officer and Shareholder Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_PTNR_INFO_SCRN$global$global",
+                            "id": "qs$DTF_PTNR_INFO_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Member, Partner and Employee Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_MNGR_INFO$global$global",
+                            "id": "qs$DTF_MNGR_INFO$global$global",
+                            "isCurrent": false,
+                            "title": "Manager Information",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BE_IPA_SCRN$global$global",
+                            "id": "qs$DTF_BE_IPA_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Business Entity Background",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BA_TIN_SCRN$global$global",
+                            "id": "qs$DTF_BA_TIN_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Business Associations",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BAT_SLA_SCRN$global$global",
+                            "id": "qs$DTF_BAT_SLA_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Business Activity",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$7132b332-358a-4f40-bc7b-90c0d227b652$global$global",
+                            "id": "qs$7132b332-358a-4f40-bc7b-90c0d227b652$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contacts Introduction",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BC_SP_RP$global$global",
+                            "id": "qs$DTF_BC_SP_RP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contact(s) and Responsible Person(s)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BC_CORP_RP$global$global",
+                            "id": "qs$DTF_BC_CORP_RP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contact(s) and Responsible Person(s)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BC_GOV_RP$global$global",
+                            "id": "qs$DTF_BC_GOV_RP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contact(s) and Responsible Person(s)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BC_TR_RP$global$global",
+                            "id": "qs$DTF_BC_TR_RP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contact(s) and Responsible Person(s)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BC_ES_RP$global$global",
+                            "id": "qs$DTF_BC_ES_RP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contact(s) and Responsible Person(s)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BC_MEM_RP$global$global",
+                            "id": "qs$DTF_BC_MEM_RP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contact(s) and Responsible Person(s)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BC_MAN_RP$global$global",
+                            "id": "qs$DTF_BC_MAN_RP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contact(s) and Responsible Person(s)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BC_LLP_RP$global$global",
+                            "id": "qs$DTF_BC_LLP_RP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contact(s) and Responsible Person(s)",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$DTF_BC_PRT_RP$global$global",
+                            "id": "qs$DTF_BC_PRT_RP$global$global",
+                            "isCurrent": false,
+                            "title": "Business Contact(s) and Responsible Person(s)",
+                            "visited": false,
+                            "willShow": false
+                        }
+                    ],
+                    "title": "Application"
+                },
+                {
+                    "isCurrent": false,
+                    "progressScreen": [
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$SUMMARY$global$global",
+                            "id": "qs$SUMMARY$global$global",
+                            "isCurrent": false,
+                            "title": "Application Summary",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$__DTF_ATTEST_RP_SCRN$global$global",
+                            "id": "qs$__DTF_ATTEST_RP_SCRN$global$global",
+                            "isCurrent": false,
+                            "title": "Attestation",
+                            "visited": false,
+                            "willShow": false
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$__SUBMIT$global$global",
+                            "id": "qs$__SUBMIT$global$global",
+                            "isCurrent": false,
+                            "title": "Ready to Submit Application",
+                            "visited": false,
+                            "willShow": true
+                        },
+                        {
+                            "allRelevantDataCollected": true,
+                            "goalState": "ScreenOrder~Main~qs$__COMPLETE$global$global",
+                            "id": "qs$__COMPLETE$global$global",
+                            "isCurrent": false,
+                            "title": "Complete",
+                            "visited": false,
+                            "willShow": true
+                        }
+                    ],
+                    "title": "Ready to Submit"
+                }
+            ]
+        },
+        "properties": null,
+        "screenAction": {
+            "enumValues": {},
+            "value": "next"
+        },
+        "submitButtonText": "Next",
+        "title": "Application Type",
+        "warningList": null
+    },
+    "versionInfo": {
+        "buildTime": 1717521245000,
+        "deploymentVersion": 237,
+        "policyModelingVersion": null,
+        "versionUid": "3468fdf6-6fb2-43c1-8ded-7706374a8f20"
+    }
+}
